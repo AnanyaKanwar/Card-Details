@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="w-full h-screen over">
+
+  <div class="h-screen absolute -z-10 overflow-hidden">
+    <img src="interactive-card-details-form-main/images/bg-main-desktop.png">
+  </div>
+
+
+  <div class="h-screen flex">
+    <div class=" flex flex-col gap-11 justify-center items-end w-3/5">
+      <img src="interactive-card-details-form-main/images/bg-card-front.png" class="mr-24">
+      <img src="interactive-card-details-form-main/images/bg-card-back.png">
+    </div>
+
+
+    <div class=" w-1/2 flex items-center">
+      <div class="w-[60%] h-[50%]">
+        <form class="px-20 mt-6 font-sans text-sm font-semibold flex flex-col gap-1">
+          <label for="fname">CARDHOLDER NAME</label>
+          <input type="text" placeholder="e.g. Jane Appleseed" class="border border-grey-400 py-1 px-2 rounded-md mb-2">
+          <label for="lname">CARD NUMBER</label>
+          <input type="number" placeholder="e.g.1234 5678 9123 0000"
+            class="border border-grey-400 py-1 px-2 rounded-md mb-2">
+          <label for="fname">EXP.DATE(MM/YY)</label>
+          
+            <div class="grid grid-cols-4 gap-5 mb-2">
+              <input type="number" placeholder="MM" class="border border-grey-400 py-1 px-1 rounded-md">
+              <input type="number" placeholder="YY" class="border border-grey-400 py-1 px-2 rounded-md">
+            </div>
+
+            <label for="lname">CVC</label>
+            <input type="number" placeholder="e.g.123" class="border border-grey-400 py-1 px-2 rounded-md mb-2">
+          
+
+          <button type="submit" form="form1" value="Submit"
+            class="border border-black py-2 px-2 bg-[#071330] text-white rounded-md">Submit</button>
+
+        </form>
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
